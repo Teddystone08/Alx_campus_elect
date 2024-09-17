@@ -1,0 +1,43 @@
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.card {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.shadow-sm {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/*admin dashbord*/
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.card {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.shadow-sm {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+    font-size: 1.2rem;
+}

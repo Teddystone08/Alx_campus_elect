@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Profiles</title>
+    <link href="/Frontend/css/bootstrap.css" rel="stylesheet">
+    <link href="/Frontend/css/display_cand.css" rel="stylesheet">
+    <link href="/Frontend/css/0. General.css" rel="stylesheet">
+   
+</head>
+<body>
+    <div class="container-fluid main_container">
+
+    <div class="container py-5">
+        <h1 class="text-center text-primary mb-4">Meet Your Candidates</h1>
+
+        <!-- Search Bar -->
+        <div class="row mb-4">
+            <div class="col-md-6 offset-md-3">
+                <input type="text" id="searchInput" class="form-control" placeholder="Search by name or position...">
+            </div>
+        </div>
+
+        <!-- Candidate Grid -->
+        <div class="row" id="candidateGrid">
+            <!-- Candidate Cards Will Be Inserted Here -->
+             <div class="cand_card">
+                <div class="img_card">
+                    <img src="/Frontend/images/Rectangle 43.png" alt="can_photo">
+                </div>
+                
+             </div>
+        </div>
+    </div>
+
+    <!-- Manifesto Modal -->
+    <div class="modal fade" id="manifestoModal" tabindex="-1" aria-labelledby="manifestoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="manifestoModalLabel">Manifesto Summary</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img id="modalCandidateImg" src="" alt="Candidate Photo">
+                    <h5 id="modalCandidateName" class="mt-3"></h5>
+                    <p><strong>Position:</strong> <span id="modalCandidatePosition"></span></p>
+                    <p id="modalManifestoText"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+    <!-- Bootstrap JS & Dependencies -->
+    <script src="/Frontend/js/bootstrap.bundle.js"></script>
+    <script src="/Frontend/js/candidates.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h3 {
+    font-weight: bold;
+}
+
+.card {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.shadow-sm {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+    font-size: 1.2rem;
+    background-color: #f8f9fa;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.img-fluid {
+    border: 3px solid #fff;
+}
