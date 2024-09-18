@@ -20,10 +20,9 @@
     color: white;
 }
 
-
-
-
-
+.navbar-nav a:hover{
+    color: #370361;
+}
 
 footer{
     bottom: 0;
