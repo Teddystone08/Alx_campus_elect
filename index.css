@@ -1,4 +1,15 @@
 /*campus-vibe*/
+.campus-vibe{
+    width: 100%;
+}
+
+.header{
+    background-image: url('elect_vote.jpg');
+    background-size: cover;
+    height: 35rem;
+
+}
+
 .card_vibe_container{
     display: flex;
     justify-content: center;
@@ -7,8 +18,8 @@
 }
 
 .card_vibe{
-    width: 60%;
-    height: 60%;
+    width: 90%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,13 +31,19 @@
     transition: 0.3s;
     cursor: pointer;
     flex-wrap: wrap;
+    text-align: justify;
 }
 
 .img-fluid{
-    width: auto;
-    height: 30%;
-    border-radius: 10px;
+    width: 95%;
+    height: 40%;
+    border-radius: 5px;
 }
+/*
+.mid{
+    height: 100%;
+}
+    */
 
 /*news*/
 .card_news_container{
@@ -34,7 +51,6 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    flex-wrap: wrap;
 }
 
 .card_news{
