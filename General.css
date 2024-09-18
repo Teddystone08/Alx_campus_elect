@@ -1,17 +1,16 @@
 *{
     margin: 0;
-    padding: 0;
-    width: auto;
-   
-           
+    padding: 0;     
 }
 
 .main_container{
-    width: 90%;
-    background-color:#58AAFF;
-    justify-content: center;
-
+    width: auto;
+    background-color: #58AAFF;   
+    margin-left: 5%;
+    margin-right: 5%;
+    
 }
+
 .navbar-brand img {
     margin-left: 0;
 }
