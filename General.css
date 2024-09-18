@@ -1,13 +1,14 @@
 *{
     margin: 0;
-    padding: 0;     
+    padding: 0;
+         
 }
 
 .main_container{
-    width: auto;
-    background-color: #58AAFF;   
+    width: auto;   
     margin-left: 5%;
     margin-right: 5%;
+    background-color: #58AAFF;
     
 }
 
