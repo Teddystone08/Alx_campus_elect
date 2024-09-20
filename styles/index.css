@@ -5,6 +5,10 @@
 
 .header{
     background-image: url('/Front-end/images/elect_vote.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-size: cover;
     height: 35rem;
 
