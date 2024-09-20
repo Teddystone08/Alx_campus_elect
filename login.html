@@ -6,19 +6,20 @@
   <link href="./bootstrap/bootstrap.css" rel="stylesheet">
   <link href="./styles/General.css" rel="stylesheet">
   <link rel="icon" href="./Front-end/icons/Group 67.png">
+  <link rel="stylesheet" href="./styles/login.css">
   <title>Candidate Profile</title>
 </head>
 <body>
   <!--main container-->
   <div class="container-fluid main_container">
 
-<div class="container m-auto mt-5">
+  <div class="container m-auto mt-5">
 
   
-  <div class="logo fixed-center">
+  <div class="logo">
     <img src="./Front-end/icons/Group 51.png" alt="logo" class="img-logo">
   </div>
-  <h1 class="title text-center ">Login</h1>
+  <h1 class="title text-center text-light">Login</h1>
   <form>
 
     <div class="mb-3">
@@ -38,6 +39,13 @@
       <label for="password" class="form-label">Password</label>
       <input type="password" class="form-control" id="password" required>
     </div>
+    <div class="mb-3">
+      <label for="role" class="form-label">Role</label>
+      <select class="form-select" id="role" required>
+        <option value="student">Student</option>
+        <option value="candidate">Candidate</option>
+        <option value="admin">Admin</option>
+      </select>
     <button type="submit" class="btn btn-primary btn-lg" href="#">Login</button>
     <button type="Cancel" class="btn btn-danger" href = "./index.html">Cancel</button>
     <div class="forgotten">

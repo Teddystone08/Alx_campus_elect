@@ -1,0 +1,8 @@
+/* Center the logo and reduce its size */
+.img-logo {
+    display: block;
+    margin: 10px auto;
+    width: auto; /* Adjust the width as needed */
+    height: 100px; /* Maintain aspect ratio */
+}
+
