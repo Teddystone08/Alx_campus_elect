@@ -5,7 +5,7 @@
     width: auto; /* Adjust the width as needed */
     height: 100px; /* Maintain aspect ratio */
 }
-
+/*center and space outbutton elements*/
 .btn{
     display: flex;
     justify-content: space-evenly;    
