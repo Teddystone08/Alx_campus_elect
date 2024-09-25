@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Voting Dashboard</title>
+    <link href="/Frontend/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Frontend/css/0. General.css">
+</head>
+<body>
+    <!--main contaner-->
+    <div class="container-fluid main_container">
+
+<div class="container-fluid">
+    <!-- Header -->
+    <div class="row bg-dark text-white p-3">
+        <div class="col">
+            <h1 class="text-center">Admin Voting Dashboard</h1>
+        </div>
+    </div>
+
+    <!-- Overview Section -->
+    <div class="row text-center mt-4">
+        <div class="col-lg-6 col-sm-12">
+            <div class="card p-3 mb-4 shadow-sm">
+                <h4>Total Number of Voters</h4>
+                <h2 class="display-4" id="totalVoters">0</h2>
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <div class="card p-3 mb-4 shadow-sm">
+                <h4>Total Valid Votes Cast</h4>
+                <h2 class="display-4" id="totalValidVotes">0</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Department Statistics Section -->
+    <div class="row mt-4">
+        <div class="col-lg-8 col-sm-12">
+            <div class="card p-4 shadow-sm">
+                <h4>Number of Voters per Department</h4>
+                <canvas id="departmentVoterChart"></canvas>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+            <div class="card p-4 shadow-sm">
+                <h4>Departments Participated</h4>
+                <ul class="list-group" id="departmentsParticipated">
+                    <!-- Department list will go here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gender-Based Voting Statistics Section -->
+    <div class="row mt-4">
+        <div class="col-lg-6 col-sm-12">
+            <div class="card p-4 shadow-sm">
+                <h4>Gender Voting Distribution</h4>
+                <canvas id="genderVotingChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Voting Trend Section -->
+        <div class="col-lg-6 col-sm-12">
+            <div class="card p-4 shadow-sm">
+                <h4>Voting Trend</h4>
+                <canvas id="votingTrendChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Device Usage Section -->
+    <div class="row mt-4">
+        <div class="col-lg-6 col-sm-12">
+            <div class="card p-4 shadow-sm">
+                <h4>Devices Used for Voting</h4>
+                <canvas id="deviceUsageChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Vote Distribution Section -->
+        <div class="col-lg-6 col-sm-12">
+            <div class="card p-4 shadow-sm">
+                <h4>Votes per Candidate</h4>
+                <canvas id="candidateVotesChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+<script src="/Frontend/js/bootstrap.bundle.js"></script>
+<script src="/Frontend/js/admin_dash.js"></script>
+</body>
+</html>

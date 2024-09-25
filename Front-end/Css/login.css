@@ -1,3 +1,14 @@
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 600px;
+    position: absolute;
+    left: auto;
+    right: auto;
+}
 /* Center the logo and reduce its size */
 .img-logo {
     display: block;

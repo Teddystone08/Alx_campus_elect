@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Dashboard</title>
+    <!-- Add Bootstrap CSS link here -->
+    <link rel="stylesheet" href="/Frontend/css/bootstrap.css">
+    <link rel="stylesheet" href="/Frontend/css/General.css">
+    <style>
+        /* Add custom CSS styles here */
+    </style>
+</head>
+
+<body>
+   
+<div class="container-fluid main_container">
+    <!-- Header -->
+    <div class="row bg-primary text-white p-3">
+        <div class="col">
+            <h1 class="text-center">Candidate Voting Dashboard</h1>
+        </div>
+    </div>
+
+    <!-- Main Metrics Section -->
+    <div class="row text-center mt-4">
+        <div class="col-lg-3 col-sm-6">
+            <div class="card p-3 mb-4 shadow-sm">
+                <h4>Total Votes Cast</h4>
+                <h2 class="display-4" id="totalVotes">0</h2>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="card p-3 mb-4 shadow-sm">
+                <h4>Total Number of Voters</h4>
+                <h2 class="display-4" id="totalVoters">0</h2>
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <div class="card p-3 mb-4 shadow-sm">
+                <h4>Leading Candidate</h4>
+                <h2 class="display-4 text-success" id="leadingCandidate">Candidate Name</h2>
+                <p class="lead" id="leadingVotePercentage">0% of Total Votes</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Voting Trend Section -->
+    <div class="row mt-4">
+        <div class="col">
+            <div class="card p-4 shadow-sm">
+                <h4>Voting Trend</h4>
+                <canvas id="votingTrendChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vote Distribution Section -->
+    <div class="row mt-4">
+        <div class="col-lg-6 col-sm-12">
+            <div class="card p-4 shadow-sm">
+                <h4>Vote Distribution</h4>
+                <canvas id="voteDistributionChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Recent Activity Section -->
+        <div class="col-lg-6 col-sm-12">
+            <div class="card p-4 shadow-sm">
+                <h4>Recent Activity</h4>
+                <ul class="list-group" id="recentActivity">
+                    <!-- Activity items will go here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Add Bootstrap JS script here -->
+    <script src="/Frontend/js/bootstrap.bundle.js"></script>
+    <script src="/Frontend/js/can_dash.js"></script>
+</body>
+
+</html>

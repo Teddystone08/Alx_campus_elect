@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/Front-end/bootstrap/bootstrap.css" rel="stylesheet">
+  <link href="/Front-end/Css/General.css" rel="stylesheet">
+  <title>Candidate Profile</title>
+</head>
+<body>
+  <!--main container-->
+  <div class="container-fluid main_container">
+    <!--main form container-->
+  <div class="container m-auto">
+    <div class="text-center">
+      <h1>Welcome to Candidate Profile</h1>
+      <p>Fill out the form below to create your profile.</p>
+    </div>
+  
+      <form class="m-4 py-4">
+      <div class="mb-3">
+        <label for="profile-photo" class="form-label">Profile Photo</label>
+        <input type="file" class="form-control" id="profile-photo">
+      </div>
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="mb-3">
+        <label for="department" class="form-label">Department</label>
+        <input type="text" class="form-control" id="department" placeholder="Enter your department">
+      </div>
+      <div class="mb-3">
+        <label for="program" class="form-label">Program</label>
+        <input type="text" class="form-control" id="program" placeholder="Enter your program">
+
+      </div>
+      <div class="mb-3">
+        <label for="level" class="form-label">Level</label>
+        <input type="text" class="form-control" id="level" placeholder="Enter your level">
+      </div>
+      <div class="mb-3">
+        <label for="position" class="form-label">Position</label>
+        <input type="text" class="form-control" id="position" placeholder="Enter your position">
+      </div>
+      <div class="mb-3">
+        <label for="manifesto" class="form-label">Manifesto</label>
+        <textarea class="form-control" id="manifesto" rows="3" placeholder="Enter your manifesto"></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="video" class="form-label">Video</label>
+        <input type="file" class="form-control" id="video">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="button" class="btn btn-secondary">Cancel</button>
+    </form>
+
+ </div>
+  </div>
+<script defer src="/Frontend/js/bootstrap.bundle.js"></script>
+</body>
+</html>
